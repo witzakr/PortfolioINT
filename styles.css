@@ -168,6 +168,7 @@ header {
     flex: 1; 
     max-width: 50%; 
     height: auto; 
+    margin-bottom: 60px;
 }
 
 .text-container h2 {
@@ -212,6 +213,11 @@ header {
     .navbar {
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
+   
+    .text-container2 {
+        margin-top: 0px !important;
+    }
+
 
     .column {
         max-width: 100%; 
@@ -232,6 +238,12 @@ header {
 
     .project-headline {
         display: block !important; 
+    }
+
+
+    .image-container2 {
+        margin-top: 0px !important;
+        margin-right: 0px !important;
     }
 }
 
@@ -318,6 +330,7 @@ header {
     display: grid;
     margin-bottom: 60px;
     margin-top: 50px;
+    margin-right: 100px;
 }
 
 .image-container2 img {
@@ -340,7 +353,7 @@ header {
 
 .text-container2 {
     width: 700px;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .text-container2 p {
