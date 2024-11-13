@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+     font-family: "Rubik", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -47,14 +47,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     position: relative;
 }
 
 .logo {
     font-size: 40px;
-    margin-left: 120px;
+    padding-left: 150px;
 }
 
 .main-navigation {
@@ -76,7 +75,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     color: #333;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 22px;
     transition: color 0.3s;
 }
@@ -103,11 +102,12 @@ body {
     .navbar {
         flex-direction: column;
         text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .logo {
         font-size: 28px; 
-        margin-left: 0;  
+        padding-left: 0;  
     }
 
     .main-navigation {
@@ -137,7 +137,6 @@ body {
     flex: 1; 
     max-width: 50%; 
     height: auto; 
-    margin-top: 80px;
 }
 
 .text-container h2 {
@@ -146,6 +145,8 @@ body {
 
 .text-container {
     width: 700px;
+    margin-top: 150px;
+    font-weight: 500;
 }
 
 .text-container p {
@@ -154,12 +155,14 @@ body {
 
 .links {
     padding-top: 20px;
+    margin-bottom: 100px;
 }
 
 .links a {
     background-color: #23a6d5;
     color: white;
     text-decoration: none;
+    font-weight: 500;
     padding: 15px 40px;
     border-radius: 5px;
     margin-right: 10px;
@@ -202,17 +205,34 @@ body {
     grid-template-columns: repeat(2, 1fr); 
     gap: 10px;
     margin-bottom: 15px;
+    margin-top: 80px;
 }
 
 .image-container img {
-    height: 260px; 
-    border-radius: 10px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    transition: height 0.5s ease;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Smooth transition for movement */
 }
 
+
 .image-container img:hover {
-    height: 280px;
+    transform: translate(-15px, -15px); 
+}
+
+
+#TopRight:hover {
+    transform: translate(15px, -15px); 
+}
+
+#BottomLeft:hover {
+    transform: translate(-15px, 15px); 
+}
+
+
+#BottomRight:hover {
+    transform: translate(15px, 15px); 
 }
 
 .blue-footer {
@@ -231,18 +251,22 @@ body {
 
 .image-container2 {
     display: grid;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    margin-top: 50px;
 }
 
 .image-container2 img {
-    height: 420px;
-    border-radius: 10px; 
+    height: 500px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     transition: height 0.5s ease;
 }
 
 .image-container2 img:hover {
-    height: 450px;
+    height: 550px;
+}
+
+.text-container2 {
+    font-weight: 500;
 }
 
 .text-container2 h2 {
@@ -251,13 +275,17 @@ body {
 
 .text-container2 {
     width: 700px;
+    margin-top: 80px;
 }
 
 .text-container2 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .links {
     padding-top: 20px;
 }
+
+
+/* Projects page */
 
