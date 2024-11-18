@@ -326,7 +326,7 @@ header {
 
 .image-container2 img {
     height: 500px;
-    box-shadow: 2px 2px 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: height 0.5s ease;
 }
 
@@ -468,10 +468,6 @@ header {
     }
 }
 
-#project {
-    width: 500px;
-}
-
 
 #SEC {
     grid-template-columns: repeat(2, 1fr);
@@ -494,7 +490,29 @@ header {
     letter-spacing: 1px;
 }
 
+.popup .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
 
-#project2 {
-    width: 600px;
+.popup .close-button:hover {
+    font-size: 40px;
+}
+
+#long-text {
+    font-size: 17px;
+}
+
+#clientWork {
+    margin-top: 90px;
+}
+
+.profile-image {
+    cursor: pointer;
 }
