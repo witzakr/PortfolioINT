@@ -440,8 +440,9 @@ header {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35); 
 }
 
+
 .project img:hover {
-    transform: scale(1.1);  
+    transform: scale(1.03); /* Reduced scaling */
 }
 
 @media (max-width: 900px) {
